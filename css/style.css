@@ -1,4 +1,14 @@
 
+/* variables */
+:root{
+  --primary-color: #eaa023;
+  --secondary-color: #0c1023;
+  --shade: #191f3a;
+  --white: #fff;
+  --light-color: #c8c8c8;
+  --shadow: 0 0 15px rgba(0,0,0,0.25);
+  scroll-behavior: smooth;
+}
 /* Globals */
 *{
   margin: 0;
@@ -10,9 +20,24 @@
 ::after{
   box-sizing: border-box;
 }
+.jcb{
+  justify-content: space-between;
+}
+.aic{
+  align-items: center;
+}
 body{
   font-size: 16px;
   line-height: 1.5;
+}
+.container{
+  max-width: 1180px;
+  background-color: blue;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
 }
 .hd .nav-toggler{
   height: 34px;
