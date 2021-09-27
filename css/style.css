@@ -30,16 +30,61 @@ body{
   font-size: 16px;
   line-height: 1.5;
 }
+img{
+  vertical-align: middle;
+  max-width: 100%;
+}
 .container{
   max-width: 1180px;
-  background-color: blue;
   margin: auto;
 }
 .row{
   display: flex;
   flex-wrap: wrap;
 }
+.hd{
+  padding: 12px 0;
+  background-color: var(--secondary-color);
+}
+.hd .logo{
+  min-height: 40px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
 .hd .nav-toggler{
+  background-color: transparent;
   height: 34px;
   width: 44px;
+  margin-right: 16px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hd .nav-toggler span{
+  height: 2px;
+  width: 32px;
+  display: block;
+  /* background-color: var(--white); */
+  background-color: red;
+}
+.hd .nav-toggler span::before,
+.hd .nav-toggler span::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--white);
+}
+.hd .nav-toggler span::before{
+  transform: translateY(-8px);
+}
+.hd .nav-toggler span::after{
+  transform: translateY(8px);
 }
