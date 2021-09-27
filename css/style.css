@@ -63,14 +63,13 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 .hd .nav-toggler span{
   height: 2px;
   width: 32px;
   display: block;
-  /* background-color: var(--white); */
-  background-color: red;
+  background-color: var(--white);
+  position: relative;
 }
 .hd .nav-toggler span::before,
 .hd .nav-toggler span::after{
