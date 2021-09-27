@@ -47,8 +47,8 @@ img{
   background-color: var(--secondary-color);
 }
 .hd .logo{
-  min-height: 40px;
-  width: 55px;
+  min-height: 60px;
+  width: auto;
   display: flex;
   align-items: center;
   cursor: pointer;
