@@ -34,6 +34,12 @@ img{
   vertical-align: middle;
   max-width: 100%;
 }
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
 .container{
   max-width: 1180px;
   margin: auto;
@@ -86,4 +92,23 @@ img{
 }
 .hd .nav-toggler span::after{
   transform: translateY(8px);
+}
+
+.hd .nav{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 280px;
+  background-color: var(--secondary-color);
+  box-shadow: var(--shadow);
+  overflow-y: auto;
+  padding: 90px 0 40px;
+}
+.hd .nav ul li a{
+  display: block;
+  font-size: 24px;
+  color: var(--white);
+  padding: 10px 30px;
+  text-transform: capitalize;
 }
