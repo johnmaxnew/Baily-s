@@ -71,12 +71,21 @@ ul{
   justify-content: center;
   align-items: center;
 }
+.hd .nav-toggler.active{
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
 .hd .nav-toggler span{
   height: 2px;
   width: 32px;
   display: block;
   background-color: var(--white);
   position: relative;
+}
+.hd .nav-toggler.active span{
+  background-color: transparent;
+  transition: background-color 0.5s ease;
 }
 .hd .nav-toggler span::before,
 .hd .nav-toggler span::after{
@@ -91,10 +100,17 @@ ul{
 .hd .nav-toggler span::before{
   transform: translateY(-8px);
 }
+.hd .nav-toggler.active span::before{
+  transform: rotate(45deg);
+  transition: transform .5s ease;
+}
 .hd .nav-toggler span::after{
   transform: translateY(8px);
 }
-
+.hd .nav-toggler.active span::after{
+  transform: rotate(-45deg);
+  transition: transform .5s ease;
+}
 .hd .nav{
   position: fixed;
   right: 0;
@@ -105,6 +121,11 @@ ul{
   box-shadow: var(--shadow);
   overflow-y: auto;
   padding: 90px 0 40px;
+  transition: transform .5s ease;
+  transform: translate(100%);
+}
+.hd .nav.open{
+  transform: translate(0%); 
 }
 .hd .nav ul li a{
   display: block;
@@ -112,4 +133,8 @@ ul{
   color: var(--white);
   padding: 10px 30px;
   text-transform: capitalize;
+  transition: color .3s ease;
+}
+.hd .nav ul li a:hover{
+  color: var(--primary-color);
 }
