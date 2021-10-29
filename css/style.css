@@ -137,5 +137,8 @@ ul{
   transition: color .3s ease;
 }
 .hd .nav ul li a:hover{
-  color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.hd .nav ul li:hover{
+  background-color: var(--light-color);
 }
