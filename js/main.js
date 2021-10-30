@@ -15,3 +15,11 @@ document.addEventListener('click', function(e){
         toggleNav();
     }
 })
+
+window.addEventListener('scroll', function(){
+    if(this.pageYOffset > 60){
+        document.querySelector('.hd').classList.add('sticky')
+    } else{
+        document.querySelector('.hd').classList.remove('sticky')
+    }
+})
