@@ -70,7 +70,10 @@ ul{
   background-color: var(--secondary-color);
   box-shadow: var(--shadow);
   z-index: -1;
-  transition: transform .5s ease;
+  transition: transform .5s ease ;
+}
+.hd.sticky::before{
+  transform: translateY(0%);
 }
 .hd .logo{
   min-height: 60px;
