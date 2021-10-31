@@ -18,8 +18,9 @@ document.addEventListener('click', function(e){
 
 window.addEventListener('scroll', function(){
     if(this.pageYOffset > 60){
-        document.querySelector('.hd').classList.add('sticky')
+        console.log('xy removed')
+        document.querySelector('.hd').classList.add('sticky');
     } else{
-        document.querySelector('.hd').classList.remove('sticky')
+        document.querySelector('.hd').classList.remove('sticky');
     }
-})
+});

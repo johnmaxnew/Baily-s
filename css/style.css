@@ -27,11 +27,13 @@
 .aic{
   align-items: center;
 }
+.min-vh-100{
+  min-height: 100vh;
+}
 body{
   font-size: 16px;
   line-height: 1.5;
   -webkit-tap-highlight-color: transparent;
-  background-color: red;
 }
 img{
   vertical-align: middle;
@@ -53,7 +55,6 @@ ul{
 }
 .hd{
   padding: 12px 0;
-  /* background-color: var(--secondary-color); */
   position: fixed;
   left: 0;
   top: 0;
@@ -68,9 +69,10 @@ ul{
   height: 100%;
   width: 100%;
   background-color: var(--secondary-color);
-  box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
   z-index: -1;
   transition: transform .5s ease ;
+  transform: translateY(-100%);
 }
 .hd.sticky::before{
   transform: translateY(0%);
@@ -163,4 +165,7 @@ ul{
 }
 .hd .nav ul li:hover{
   background-color: var(--light-color);
+}
+.home{
+  background-color: var(--primary-color);
 }
