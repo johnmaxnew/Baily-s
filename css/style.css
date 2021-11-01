@@ -31,6 +31,18 @@
 .min-vh-100{
   min-height: 100vh;
 }
+.btn{
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: red;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all .3s ease;
+}
 body{
   font-size: 16px;
   line-height: 1.5;
@@ -218,7 +230,7 @@ h3, h4, h5, h6{
 }
 .h-text h1{
   font-size: 60px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 75px;
   margin: 0 0 5px;
 }
