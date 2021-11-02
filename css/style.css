@@ -212,6 +212,7 @@ h3, h4, h5, h6{
 }
 .home{
   position: relative;
+  overflow: hidden;
 }
 .home::before{
   content: '';
@@ -235,6 +236,7 @@ h3, h4, h5, h6{
   height: 100%;
   width: 100%;
   z-index: -2;
+  animation: zoomInOut 10s ease infinite;
 }
 .home .min-vh-100{
   padding: 100px 0;
