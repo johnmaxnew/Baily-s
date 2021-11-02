@@ -34,21 +34,33 @@
 .btn{
   display: inline-block;
   padding: 10px 40px;
-  /* background-color: red; */
-  border-radius: 30px;
+  background-color: var(--primary-color);
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   cursor: pointer;
   font-family: inherit;
-  color: var(--primary-color);
+  color: var(--white);
   line-height: 1.5;
   user-select: none;
+  border: 2px solid var(--primary-color);
   transition: all .3s ease;
 }
-.btn-default{
+.btn:hover{
+  background-color: transparent;
+  color: var(--primary-color);
   border: 2px solid var(--primary-color);
 }
+
+@keyframes zoomInOut {
+  0%, 100%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+}
+
 body{
   font-size: 16px;
   line-height: 1.5;
