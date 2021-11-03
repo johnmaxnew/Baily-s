@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 /* variables */
 :root{
   --primary-color: #eaa023;
@@ -30,6 +33,28 @@
 }
 .min-vh-100{
   min-height: 100vh;
+}
+.section-padding{
+  padding: 80px 0;
+}
+.section-title{
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-title h2{
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-title h2::before{
+  content: attr(data-title);
+  display: block;
+  font: 12px;
+  color: var(--primary-color);
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-weight: 400;
 }
 .btn{
   display: inline-block;
@@ -88,6 +113,11 @@ h2{
 h3, h4, h5, h6{
   font-weight: 500;
   color: var(--silver);
+  font-family: 'Cinzel', serif;
+}
+p{
+  font-size: 16px;
+  font-family: 'Padauk', sans-serif;
 }
 .container{
   max-width: 1180px;
@@ -255,8 +285,49 @@ h3, h4, h5, h6{
   margin: 0 0 5px;
 }
 .h-text p{
-  /* font-size: 60px;
-  font-family: 'Courier New', Courier, monospace;
-  line-height: 75px; */
   margin: 0 0 30px;
 }
+
+/* ABOUT */
+.about{
+  background-color: var(--secondary-color);
+}
+.a-text,
+a-img{
+  width: 50%;
+  padding: 0 15px;
+}
+.a-text h3{
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+.a-text p{
+  margin: 0 0 15px;
+}
+.a-text .btn{
+  margin: 15px 0 0 ;
+}
+.a-img img{
+  width: 100%;
+  border-radius: 20px;
+}
+.a-img .img-box{
+  position: relative;
+}
+.a-img .img-box h3{
+  position: absolute;
+  background-color: var(--secondary-color);
+  left: 50%;
+  top: 90%;
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 10px 10px 10px;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
