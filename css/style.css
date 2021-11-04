@@ -337,6 +337,7 @@ a-img{
   padding: 0 15px;
   width: 100%;
   text-align: center;
+  margin-bottom: 30px;
 }
 .tab-item{
   font-size: 18px;
@@ -348,5 +349,8 @@ a-img{
   color: var(--white);
   cursor: pointer;
   margin: 0 10px 10px;
+  transition: color .3s ease;
 }
-
+.tab-item.active{
+  color: var(--primary-color);
+}
