@@ -367,6 +367,7 @@ a-img{
 }
 .m-item-title h3{
   font-size: 16px;
+  transition: color .3s ease;
 }
 .m-item-title img{
   max-width: 100px;
