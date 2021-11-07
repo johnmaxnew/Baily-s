@@ -354,3 +354,21 @@ a-img{
 .tab-item.active{
   color: var(--primary-color);
 }
+.m-item{
+  width: 50%;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.m-item-title{
+  display: flex;
+  align-items: center;
+}
+.m-item-title h3{
+  font-size: 16px;
+}
+.m-item-title img{
+  max-width: 100px;
+  margin-right: 15px;
+}
