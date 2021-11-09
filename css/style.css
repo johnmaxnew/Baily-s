@@ -376,3 +376,9 @@ a-img{
 .tm{
   background-color: var(--secondary-color);
 }
+.t-item{
+  width: calc((100% / 3) - 30px);
+  margin: 0 15px 30px;
+  border: 2px solid var(--light-color);
+  padding: 30px;
+}
