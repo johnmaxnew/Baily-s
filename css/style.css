@@ -386,5 +386,29 @@ a-img{
   box-shadow: var(--shadow);
 }
 .t-author{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.t-author h3{
+  font-size: 16px;
+  margin: 0 0 3px;
+}
+
+.t-author span{
+  display: block;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.t-author img{
+  width: 60px;
+  border-radius: 50%;
+  border: 3px solid var(--dark-white);
+  box-shadow: var(--shadow);
+  transition: border-color .5s ease;
+}
+.t-item p{
   
 }
+
+
