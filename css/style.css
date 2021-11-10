@@ -401,8 +401,8 @@ a-img{
   text-transform: capitalize;
 }
 .t-author img{
-  width: 60px;
-  border-radius: 50%;
+  /* width: 60px;
+  border-radius: 50%; */
   border: 3px solid var(--dark-white);
   box-shadow: var(--shadow);
   transition: border-color .5s ease;
@@ -410,4 +410,7 @@ a-img{
 .t-item p{
   margin: 15px 0;
 }
-
+.t-item .ratings i {
+  font-size: 16px;
+  color: var(--primary-color);
+}
