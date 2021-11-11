@@ -420,4 +420,18 @@ a-img{
 .team-item{
   width: calc(100% / 3);
   padding: 0 15px;
+  position: relative;
+}
+.team-item img{
+  width: 100%;
+  border-radius: 10px;
+}
+.team-item-info{
+  background-color: var(--secondary-color);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  right: 30px;
 }
