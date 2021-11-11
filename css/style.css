@@ -414,8 +414,9 @@ a-img{
   font-size: 16px;
   color: var(--primary-color);
 }
-.team{
+.team-section {
   background-color: var(--secondary-color);
+  height: 120vh;
 }
 .team-item{
   width: calc(100% / 3);
@@ -423,7 +424,7 @@ a-img{
   position: relative;
 }
 .team-item img{
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
 }
 .team-item-info{
