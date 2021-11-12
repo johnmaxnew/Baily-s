@@ -425,6 +425,7 @@ a-img{
 }
 .team-item img{
   /* width: 100%; */
+  width: auto;
   border-radius: 10px;
 }
 .team-item-info{
