@@ -374,8 +374,10 @@ a-img{
   max-width: 100px;
   margin-right: 15px;
 }
+/* TEAM */
 .tm{
   background-color: var(--secondary-color);
+  padding-bottom: 125px;
 }
 .t-item{
   width: calc((100% / 3) - 30px);
