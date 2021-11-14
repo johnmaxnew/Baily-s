@@ -450,3 +450,10 @@ a-img{
   text-transform: capitalize;
 
 }
+
+/* FOOTER */
+.footer{
+  padding: 80px 0;
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
