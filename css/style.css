@@ -438,10 +438,15 @@ a-img{
   position: absolute;
   left: 30px;
   right: 30px;
+  transition: all .5s ease;
+  pointer-events: none;
 }
 .team-item-info h3{
-  
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 0 0 10px;
 }
 .team-item-info p{
-  
+  text-transform: capitalize;
+
 }
