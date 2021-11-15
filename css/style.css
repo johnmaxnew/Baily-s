@@ -457,6 +457,9 @@ a-img{
   background-color: var(--secondary-color);
   color: var(--white);
 }
+.footer .container{
+  padding: 10px 20px;
+}
 .footer .container .bottombar{
   display: flex;
   justify-content: space-between;
