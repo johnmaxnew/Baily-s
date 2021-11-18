@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 /* variables */
 :root{
+  
+  --dark-color1: #134879;
+  --dark-color2: #1d7d7f;
+
   --primary-color: #eaa023;
   --secondary-color: #0c1023;
   --shade: #191f3a;
@@ -143,7 +147,7 @@ p{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
   /* box-shadow: var(--shadow); */
   z-index: -1;
   transition: transform .5s ease ;
@@ -217,7 +221,7 @@ p{
   top: 0;
   height: 100%;
   width: 280px;
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
   box-shadow: var(--shadow);
   overflow-y: auto;
   padding: 90px 0 40px;
@@ -236,7 +240,7 @@ p{
   transition: color .3s ease;
 }
 .hd .nav ul li a:hover{
-  color: var(--secondary-color);
+  color: var(--dark-color1);
 }
 .hd .nav ul li:hover{
   background-color: var(--light-color);
@@ -291,7 +295,7 @@ p{
 
 /* ABOUT */
 .about{
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
 }
 .a-text,
 a-img{
@@ -318,7 +322,7 @@ a-img{
 }
 .a-img .img-box h3{
   position: absolute;
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
   left: 50%;
   top: 90%;
   width: 100%;
@@ -329,7 +333,7 @@ a-img{
 
 /* SECTORS */
 .sectors{
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
 }
 .sectors .section-title{
   margin-bottom: 40px;
@@ -376,7 +380,7 @@ a-img{
 }
 /* TEAM */
 .tm{
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
   padding-bottom: 125px;
 }
 .t-item{
@@ -417,7 +421,7 @@ a-img{
   color: var(--primary-color);
 }
 .team-section {
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
   height: 120vh;
 }
 .team-item{
@@ -431,7 +435,7 @@ a-img{
   border-radius: 10px;
 }
 .team-item-info{
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
   padding: 15px;
   border-radius: 10px;
   text-align: center;
@@ -454,7 +458,7 @@ a-img{
 /* FOOTER */
 .footer{
   padding: 80px 0;
-  background-color: var(--secondary-color);
+  background-color: var(--dark-color1);
   color: var(--white);
 }
 .footer .container{
