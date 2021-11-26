@@ -344,6 +344,11 @@ a-img{
   text-align: center;
   margin-bottom: 30px;
 }
+.tabs1 button{
+  height: 100px;
+  background-color: #134879;
+  padding: 10px;
+}
 .tabs{
   padding: 0 15px;
   width: 100%;
